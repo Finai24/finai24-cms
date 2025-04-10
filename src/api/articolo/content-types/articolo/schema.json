@@ -1,0 +1,39 @@
+
+{
+  "collectionName": "articoli",
+  "info": {
+    "singularName": "articolo",
+    "pluralName": "articoli",
+    "displayName": "Articolo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "contenuto": {
+      "type": "richtext"
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": ["Mercati", "Macroeconomia", "Politiche monetarie", "Geopolitica", "Analisi AI", "Errata Corrige"]
+    },
+    "fonte": {
+      "type": "string"
+    },
+    "urlSorgente": {
+      "type": "string"
+    },
+    "immagine": {
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "dataPubblicazione": {
+      "type": "datetime"
+    }
+  }
+}

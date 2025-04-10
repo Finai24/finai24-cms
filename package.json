@@ -1,7 +1,8 @@
+
 {
   "name": "finai24",
   "version": "1.0.0",
-  "description": "CMS Strapi per FinAI24 - versione SQLite pronta per Render",
+  "description": "CMS Strapi per FinAI24 - SQLite compatibile con Render",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
