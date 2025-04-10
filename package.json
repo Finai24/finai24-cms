@@ -1,14 +1,18 @@
-
 {
   "name": "finai24",
   "version": "1.0.0",
+  "description": "CMS Strapi per FinAI24 - versione SQLite pronta per Render",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build"
   },
   "dependencies": {
-    "strapi": "^4.15.0",
+    "@strapi/strapi": "^4.15.0",
     "sqlite3": "^5.1.2"
-  }
+  },
+  "engines": {
+    "node": ">=18.0.0 <=18.x"
+  },
+  "license": "MIT"
 }
