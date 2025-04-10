@@ -1,0 +1,14 @@
+
+{
+  "name": "finai24",
+  "version": "1.0.0",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build"
+  },
+  "dependencies": {
+    "strapi": "^4.15.0",
+    "sqlite3": "^5.1.2"
+  }
+}
