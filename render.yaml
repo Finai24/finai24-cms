@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: finai24-cms
+    env: node
+    buildCommand: yarn install && yarn build
+    startCommand: yarn start
+    plan: free
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_FILENAME
+        value: /data/data.db
+      - key: JWT_SECRET
+        generateValue: true
+      - key: ADMIN_JWT_SECRET
+        generateValue: true
+      - key: API_TOKEN_SALT
+        generateValue: true
+      - key: APP_KEYS
+        generateValue: true
+    disk:
+      name: strapi-data
+      mountPath: /data
+      sizeGB: 1
+
+
+
+aggiunto file render.yaml per deploy su Render
