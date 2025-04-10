@@ -24,7 +24,3 @@ services:
       name: strapi-data
       mountPath: /data
       sizeGB: 1
-
-
-
-aggiunto file render.yaml per deploy su Render
