@@ -10,6 +10,14 @@
     "draftAndPublish": true,
     "timestamps": true
   },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": true
+    },
+    "content-type-builder": {
+      "visible": true
+    }
+  },
   "attributes": {
     "titolo": {
       "type": "string",
@@ -35,11 +43,14 @@
     },
     "immagine": {
       "type": "media",
-      "multiple": false,
-      "required": false
+      "multiple": false
     },
     "dataPubblicazione": {
       "type": "datetime"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titolo"
     }
   }
 }
