@@ -1,13 +1,14 @@
-
 {
   "collectionName": "articoli",
   "info": {
     "singularName": "articolo",
     "pluralName": "articoli",
-    "displayName": "Articolo"
+    "displayName": "Articolo",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": true,
+    "timestamps": true
   },
   "attributes": {
     "titolo": {
@@ -19,7 +20,12 @@
     },
     "categoria": {
       "type": "enumeration",
-      "enum": ["Mercati", "Macroeconomia", "Politiche monetarie", "Geopolitica", "Analisi AI", "Errata Corrige"]
+      "enum": [
+        "geopolitica",
+        "macro",
+        "borse",
+        "criptovalute"
+      ]
     },
     "fonte": {
       "type": "string"
