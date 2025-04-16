@@ -7,9 +7,13 @@
     "start": "strapi start",
     "build": "strapi build"
   },
-  "dependencies": {
-    "@strapi/strapi": "^4.15.0",
-    "@strapi/plugin-users-permissions": "^4.15.0",
-    "sqlite3": "^5.1.2"
+ "dependencies": {
+  "@strapi/strapi": "^4.15.0",
+  "@strapi/plugin-users-permissions": "^4.15.0",
+  "sqlite3": "^5.1.2",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "react-router-dom": "^5.3.4",
+  "styled-components": "^5.3.11"
   }
 }
