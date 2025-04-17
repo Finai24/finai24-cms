@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articolos",
+  "info": {
+    "singularName": "articolo",
+    "pluralName": "articolos",
+    "displayName": "articolo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titolo": {
+      "type": "string"
+    },
+    "contenuto": {
+      "type": "blocks"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titolo"
+    },
+    "immagine": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "publisheAt": {
+      "type": "datetime"
+    }
+  }
+}
