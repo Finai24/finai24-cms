@@ -4,7 +4,7 @@
     "singularName": "articolo",
     "pluralName": "articoli",
     "displayName": "Articolo",
-    "description": "Contenuti pubblicati su FinAI24"
+    "description": ""
   },
   "options": {
     "draftAndPublish": true,
