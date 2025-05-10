@@ -1,0 +1,29 @@
+{
+  "collectionName": "notiziari_video",
+  "info": {
+    "singularName": "notiziariVideo",
+    "pluralName": "notiziariVideo",
+    "displayName": "Notiziari Video",
+    "description": "Video generati automaticamente dall'assistente AI"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "link_video": {
+      "type": "string",
+      "required": true
+    },
+    "testo_sintetizzato": {
+      "type": "text"
+    },
+    "data_pubblicazione": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}
