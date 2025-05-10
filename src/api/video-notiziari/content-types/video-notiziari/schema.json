@@ -4,7 +4,6 @@
     "singularName": "videoNotiziario",
     "pluralName": "videoNotiziari",
     "displayName": "Video Notiziari"
-    "description": "Video generati automaticamente dall'assistente AI"
   },
   "options": {
     "draftAndPublish": true
@@ -27,3 +26,4 @@
     }
   }
 }
+
