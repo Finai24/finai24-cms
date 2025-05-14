@@ -1,0 +1,28 @@
+{
+  "collectionName": "video_notiziari_ai",
+  "info": {
+    "singularName": "videoNotiziario",
+    "pluralName": "videoNotiziariAI",
+    "displayName": "Video Notiziari AI"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titolo": {
+      "type": "string",
+      "required": true
+    },
+    "link_video": {
+      "type": "string",
+      "required": true
+    },
+    "testo_sintetizzato": {
+      "type": "text"
+    },
+    "data_pubblicazione": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}
