@@ -1,9 +1,9 @@
 {
   "collectionName": "video_notiziari",
   "info": {
-    "singularName": "video-Notiziari",
-    "pluralName": "videoNotiziari",
-    "displayName": "Video Notiziari"
+    "singularName": "videoNotiziario",
+    "pluralName": "videoNotiziariAI",
+    "displayName": "Video Notiziari AI"
   },
   "options": {
     "draftAndPublish": true
